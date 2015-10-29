@@ -55,7 +55,7 @@ namespace StackOverflowPost_tests
         }
 
         [TestMethod]
-        public void Edit_UpdatedsDescription()
+        public void Edit_UpdatesDescription()
         {
             var post = new Post(_title, _description);
             post.Edit(_newDescription);
@@ -64,7 +64,7 @@ namespace StackOverflowPost_tests
         }
 
         [TestMethod]
-        public void Edit_UpdatedsTitleAndDescription()
+        public void Edit_UpdatesTitleAndDescription()
         {
             var post = new Post(_title, _description);
             post.Edit(_newTitle, _newDescription);
